@@ -20,10 +20,14 @@
 
 <body <?php body_class(); ?> data-urlBody="<?php bloginfo('url') ?>">
 
-<figure class="logo">
-    <?php include (TEMPLATEPATH . '/includes/logo.php'); ?>
-</figure>
-
 <main>
 
-    <header>
+    <header class="Header">
+        <nav class="Nav">
+            <ul class="row center">
+                <li><a href="">FESTIVAL <b>SHOWCASE</b></a></li>
+                <li><a href="">ZONA DE <b>NEGOCIOS</b></a></li>
+                <li><a href="">ZONA <b>ACADÉMICA</b></a></li>
+            </ul>
+        </nav>
+    </header>

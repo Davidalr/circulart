@@ -2,8 +2,20 @@
 @import "lib/fonts";
 @import "lib/general";
 @import "lib/grid";
+$orange: #EF5319;
+$green: #00A6A4;
+main{
+  width: 100%;
+  max-width: rem(1280);
+}
 
-body{
-  background: black;
-  width: 10;
+.Header{
+  padding-top: 4rem;
+
+  background: url("../images/header.png") no-repeat 0 11rem ;
+  height: 57rem;
+  a{
+    color: #414141;
+    padding: 1.5rem;
+  }
 }
