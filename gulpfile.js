@@ -28,4 +28,4 @@ gulp.task('sass:watch', function () {
 
 
 
-gulp.task('default',['styles','assets','build'])
+gulp.task('default',['sass:watch'])
