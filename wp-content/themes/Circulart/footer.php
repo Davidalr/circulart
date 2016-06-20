@@ -2,7 +2,7 @@
 
 
     <div class="Circle">
-        <svg width="450px" viewBox="0 0 533 180" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        <svg  viewBox="0 0 533 180" version="1.1" xmlns="http://www.w3.org/2000/svg"
              xmlns:xlink="http://www.w3.org/1999/xlink">
 
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

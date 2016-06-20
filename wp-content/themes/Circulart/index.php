@@ -3,7 +3,7 @@
 <section class="News">
     <?php global $post;
     $my_query = new WP_Query('category_name=noticias&showposts=3'); ?>
-    <ul class="row">
+    <ul class="row center">
 
         <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
             <li class="col-4">
@@ -19,7 +19,7 @@
     </ul>
 </section>
 <section><iframe width="100%" height="315" src="https://www.youtube.com/embed/pPvtio-7fSE" frameborder="0" allowfullscreen></iframe></section>
-<section class="row Gallery">
+<section class="row Gallery center">
     <figure>
         <img src="<?php bloginfo('template_url') ?>/assets/images/1img.png" alt="">
     </figure>
