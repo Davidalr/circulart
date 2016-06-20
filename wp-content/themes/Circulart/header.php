@@ -25,7 +25,7 @@
     <header class="Header">
         <nav class="Nav">
             <ul class="row center">
-                <li><a href="/"> <b>HOMEasdasdasd</b></a></li>
+                <li><a href="/"> <b>INICIO</b></a></li>
                 <li><a href="">FESTIVAL <b>SHOWCASE</b></a></li>
                 <li><a href="">ZONA DE <b>NEGOCIOS</b></a></li>
                 <li><a href="">ZONA <b>ACADÉMICA</b></a></li>
