@@ -34,7 +34,7 @@
         <div class="Social">
             <ul>
                 <li>
-                    <a href="">
+                    <a href="https://twitter.com/Circulart_" target="_blank">
                         <svg width="31px" height="26px" viewBox="0 0 31 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
                             <title>Stroke 1</title>
@@ -51,7 +51,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://www.facebook.com/Circulart" target="_blank">
                         <svg width="15px" height="31px" viewBox="0 0 15 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
                             <title>Stroke 3</title>
@@ -68,7 +68,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href=""><svg width="40px" height="28px" viewBox="0 0 40 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <a href="https://www.youtube.com/channel/UCp1LtBBVxj68-drbIhJg71Q" target="_blank"><svg width="40px" height="28px" viewBox="0 0 40 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
                             <title>Stroke 5</title>
                             <desc>Created with Sketch.</desc>
@@ -83,7 +83,7 @@
                         </svg></a>
                 </li>
                 <li>
-                    <a href=""><svg width="31px" height="32px" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <a href="https://www.instagram.com/circulartmc/" target="_blank"><svg width="31px" height="32px" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
                             <title>Group</title>
                             <desc>Created with Sketch.</desc>
@@ -101,9 +101,9 @@
                             </g>
                         </svg></a>
                 </li>
-                <li class="txt"><a href="">Inscripciones</a></li>
-                <li class="txt"><a href="">Programación</a></li>
-                <li class="txt"><a href="">Versiones  anteriores</a></li>
+                <li class="txt"><a href="<?php bloginfo('url') ?>/inscripciones">Inscripciones</a></li>
+                <li class="txt"><a href="<?php bloginfo('url') ?>/programacion">Programación</a></li>
+                <li class="txt"><a href="http://circulart.org/2015/"  target="_blank">Versiones  anteriores</a></li>
             </ul>
         </div>
     </header>

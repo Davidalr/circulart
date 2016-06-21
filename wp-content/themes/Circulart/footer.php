@@ -14,9 +14,9 @@
     </div>
     <section class="Footer-nav">
         <ul class="row center ">
-            <li><a href="noticias">Noticias</a></li>
-            <li><a href="medellin">Medellín</a></li>
-            <li><a href="aliados">Aliados</a></li>
+            <li><a href="<?php bloginfo('url') ?>/noticias">Noticias</a></li>
+            <li><a href="<?php bloginfo('url') ?>/medellin">Medellín</a></li>
+            <li><a href="<?php bloginfo('url') ?>/aliados">Aliados</a></li>
             <li><a id="contact" href="#">Contacto</a></li>
         </ul>
     </section>
