@@ -23,9 +23,12 @@
 <main>
 
     <header class="Header">
+        <figure class="Logo">
+            <a href="<?php bloginfo('url') ?>"><img src="<?php bloginfo('template_url') ?>/assets/images/logo.png" alt=""></a>
+        </figure>
         <nav class="Nav">
             <ul class="row center">
-                <li><a href="/"> <b>INICIO</b></a></li>
+
                 <li><a href="<?php bloginfo('url') ?>/festival-showcase">FESTIVAL <b>SHOWCASE</b></a></li>
                 <li><a href="<?php bloginfo('url') ?>/zona-de-negocios">ZONA DE <b>NEGOCIOS</b></a></li>
                 <li><a href="<?php bloginfo('url') ?>/zona-academica">ZONA <b>ACADÉMICA</b></a></li>

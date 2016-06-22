@@ -13,12 +13,17 @@ section{
 }
 .Header{
   padding-top: 4rem;
-
-  background: url("../images/header.png") no-repeat 0 10.75rem ;
-  height: 47rem;
+  position: relative;
+  background: url("../images/header.png") no-repeat 0 0 ;
+  height: 42rem;
   a{
     color: #414141;
     padding: 0 rem(10);
+  }
+  .Logo{
+    position: absolute;
+    top: rem(20);
+    left: rem(20);
   }
 }
 .Social{
@@ -218,4 +223,12 @@ section{
     color: $orange;
   }
 
+}
+.page-numbers{
+  margin: rem(20) auto;
+
+  li{
+    display: inline-block;
+    padding: rem(4);
+  }
 }
