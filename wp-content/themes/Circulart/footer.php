@@ -38,12 +38,12 @@
 
 
 
-            <p>
+           <!-- <p>
                 Información General REDLAT <br>
                 info@redlat.org<br>
                 Información General CIRCULART<br>
                 info@circulart.org
-            </p>
+            </p>-->
         </div>
     </section>
 </div>

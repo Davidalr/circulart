@@ -6,7 +6,7 @@
 
     <title> <?php the_title(); ?> </title>
 
-    <meta name="description" content="<?php bloginfo('description'); ?>"/>
+    <meta name="description" content="Del 11 al 13 de noviembre de 2016 se realizará la séptima edición de CIRCULART, el mercado cultural para la música latinoamericana, que reunirá profesionales de Iberoamérica y el mundo en la ciudad de Medellín, Colombia."/>
 
     <link rel="profile" href="http://gmpg.org/xfn/11">
 
@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/assets/css/style.css">
 
     <?php wp_head(); ?>
+    <meta property="og:title" content="Circulart 2016"/>
+    <meta property="og:image" content="http://circulart.org/2016/wp-content/uploads/2016/06/convcirculart-e1466522110867.png"/>
+    <meta property="og:site_name" content="Circulart 2016"/>
+    <meta property="og:description" content="Del 11 al 13 de noviembre de 2016 se realizará la séptima edición de CIRCULART, el mercado cultural para la música latinoamericana, que reunirá profesionales de Iberoamérica y el mundo en la ciudad de Medellín, Colombia."/>
 
 </head>
 
@@ -109,8 +113,8 @@
 
             <!--    <li class="txt"><a href="<?php /*bloginfo('url') */?>/inscripciones">Inscripciones</a></li>
                 <li class="txt"><a href="<?php /*bloginfo('url') */?>/programacion">Programación</a></li>-->
-                <li class="txt"><a href="<?php bloginfo('url') ?>/calendario">Calendario</a></li>
                 <li class="txt greenBack"><a href="<?php bloginfo('url') ?>/versiones" >Circulart</a></li>
+                <li class="txt"><a href="<?php bloginfo('url') ?>/calendario">Calendario</a></li>
             </ul>
         </div>
     </header>
