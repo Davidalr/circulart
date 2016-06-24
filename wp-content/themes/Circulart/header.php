@@ -22,9 +22,11 @@
 
 <main>
 
-    <header class="Header">
+    <header class="Header"
+            <?php if(isset(get_post_meta( get_the_ID(), 'background' )[0]) ){ ?>
+            style="background-image: url(<?php   echo get_post_meta( get_the_ID(), 'background' )[0];} ?>) !important;" >
         <figure class="Logo">
-            <a href="<?php bloginfo('url') ?>"><img src="<?php bloginfo('template_url') ?>/assets/images/logo.png" alt=""></a>
+            <a href="<?php bloginfo('url') ?>"><img src="<?php  bloginfo('template_url') ?>/assets/images/logo.png" alt=""></a>
         </figure>
         <nav class="Nav">
             <ul class="row center">
@@ -106,7 +108,7 @@
                 </li>
                 <li class="txt"><a href="<?php bloginfo('url') ?>/inscripciones">Inscripciones</a></li>
                 <li class="txt"><a href="<?php bloginfo('url') ?>/programacion">Programación</a></li>
-                <li class="txt"><a href="http://circulart.org/2015/"  target="_blank">Versiones  anteriores</a></li>
+                <li class="txt greenBack"><a href="<?php bloginfo('url') ?>/versiones" >Circulart</a></li>
             </ul>
         </div>
     </header>

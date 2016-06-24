@@ -13,33 +13,58 @@ section{
 }
 .Header{
   padding-top: 4rem;
-  position: relative;
-  background: url("../images/header.png") no-repeat 0 0 ;
-  height: 42rem;
+  background-image: url(../images/header.png) ;
+  background-repeat: no-repeat;
+  background-position:  0 rem(-32);
+  height: 35rem;
+  max-width: rem(1060);
+  margin: auto;
+  background-size: rem(1060);
   a{
     color: #414141;
     padding: 0 rem(10);
   }
   .Logo{
     position: absolute;
-    top: rem(20);
-    left: rem(20);
+    top: 1.25rem;
+    max-width: 14rem;
+    padding: rem(10);
+  }
+}
+.Nav{
+  ul{
+    margin: auto;
+    max-width: 36rem;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 4px;
+    border-radius: 4px;
   }
 }
 .Social{
   text-align: center;
   position: fixed;
   right: 0;
-  top: 120px;
+  top: rem(120);
+  svg g{
+    fill: white;
+  }
   li{
     margin: 10px 0 ;
     font-size: 14px;
+
     &.txt{
+      background: white;
       padding: 6px;
       border: solid 1px;
       border-radius: 20px 0 0 20px;
       a{
         padding: 0;
+      }
+      &.greenBack{
+        background: $green;
+        a{
+          color: white;
+        }
       }
     }
   }
@@ -58,7 +83,7 @@ section{
 .News{
   text-align: center;
   max-width:  rem(1000);
-  margin: rem(60) auto;
+  margin: rem(40) auto rem(60);
   li{
     h2{
       border-top: rem(3) solid #414042 ;
@@ -150,8 +175,8 @@ section{
   background: rgba(248,252,252,.95);
   width: 100%;
   position: fixed;
-  max-height: 60vh;
-  top: 20vh;
+  max-height: 100vh;
+  top: 0;
   z-index: 20;
   height: 100%;
   .smform-fieldcont {
@@ -230,5 +255,48 @@ section{
   li{
     display: inline-block;
     padding: rem(4);
+  }
+}
+.Version{
+  max-width: 50rem;
+  margin: 3rem auto 0;
+  figure{
+    max-width: rem(250);
+  }
+  h1{
+    font-size: 2rem;
+    margin: rem(12) 0;
+    color: $orange;
+    font-weight: 400;
+    b{
+      font-weight: bold;
+    }
+  }
+  p{
+    text-align: justify;
+    padding: 0 rem(20);
+  }
+  h2{
+    text-align: center;
+    font-size: 1.1rem;
+    color: #414042;
+    margin-top: 8rem;
+  }
+  hr{
+    border: none;
+    height: rem(2);
+    background: #414042;
+    max-width: 42rem;
+  }
+  ul{
+    max-width: 42rem;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  li{
+    a{
+      color: $green;
+    }
   }
 }
