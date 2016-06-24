@@ -16,10 +16,14 @@ section{
   background-image: url(../images/header.png) ;
   background-repeat: no-repeat;
   background-position:  0 rem(-32);
-  height: 35rem;
+  height: 29rem;
   max-width: rem(1060);
   margin: auto;
-  background-size: rem(1060);
+  background-size: 55rem;
+  @include respond-toH(middle){
+    height: 35rem;
+    background-size: rem(1060);
+  }
   a{
     color: #414141;
     padding: 0 rem(10);

@@ -27,6 +27,28 @@ $browser-context: 16;
   }
 
 }
+
+@mixin respond-toH($breakpoint){
+  @if $breakpoint == "small"{
+    @media (min-height: 36rem){
+      @content;
+    }
+  }
+
+  @else if $breakpoint == "middle"{
+    @media (min-height: 45rem){
+      @content
+    }
+  }
+  @else if $breakpoint == "large"{
+    @media (min-height: 80rem){
+      @content
+
+    }
+
+  }
+
+}
 @mixin transition($transition...){
   -moz-transition:    $transition;
   -o-transition:      $transition;
