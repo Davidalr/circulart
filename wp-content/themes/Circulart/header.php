@@ -39,23 +39,6 @@
         <div class="Social">
             <ul>
                 <li>
-                    <a href="https://twitter.com/Circulart_" target="_blank">
-                        <svg width="31px" height="26px" viewBox="0 0 31 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-                            <title>Stroke 1</title>
-                            <desc>Created with Sketch.</desc>
-                            <defs></defs>
-                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="iPad-Pro-Portrait" transform="translate(-238.000000, -136.000000)" stroke="#000000" stroke-width="0.8">
-                                    <g id="Page-1" transform="translate(234.000000, 136.000000)">
-                                        <path d="M6.3297,2.1107 C6.3297,2.1107 10.7497,8.2977 18.8917,8.4217 C18.8917,8.4217 18.1997,3.0557 22.8737,1.4177 C22.8737,1.4177 26.8507,-0.2253 29.4997,2.8667 C29.4997,2.8667 32.5977,2.3637 33.2927,1.4177 C33.2927,1.4177 33.1007,3.3167 30.9537,4.7017 C30.9537,4.7017 32.9117,4.6977 34.3007,3.9417 C34.3007,3.9417 32.3477,6.3837 31.5017,6.7657 C31.4887,6.7717 31.4737,6.7787 31.4607,6.7827 C30.6397,7.1027 32.3477,12.5947 27.2287,19.0947 C27.2287,19.0947 23.3547,24.3357 16.1147,25.3487 C13.1737,25.7587 8.8547,26.1057 4.4987,22.8227 C4.4987,22.8227 8.9137,23.3897 13.3367,20.1067 C13.3367,20.1067 8.7907,19.7277 7.7207,15.9377 C7.7207,15.9377 9.8007,15.9407 10.2427,15.8767 C10.2427,15.8767 5.3827,14.2327 5.4457,9.5927 C5.4457,9.5927 7.0857,10.3177 8.0037,10.2227 C8.0037,10.2227 3.8957,7.1587 6.3297,2.1107 L6.3297,2.1107 Z" id="Stroke-1"></path>
-                                    </g>
-                                </g>
-                            </g>
-                        </svg>
-                    </a>
-                </li>
-                <li>
                     <a href="https://www.facebook.com/Circulart" target="_blank">
                         <svg width="15px" height="31px" viewBox="0 0 15 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
@@ -73,19 +56,21 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/channel/UCp1LtBBVxj68-drbIhJg71Q" target="_blank"><svg width="40px" height="28px" viewBox="0 0 40 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <a href="https://twitter.com/Circulart_" target="_blank">
+                        <svg width="31px" height="26px" viewBox="0 0 31 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-                            <title>Stroke 5</title>
+                            <title>Stroke 1</title>
                             <desc>Created with Sketch.</desc>
                             <defs></defs>
                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="iPad-Pro-Portrait" transform="translate(-233.000000, -244.000000)" stroke="#000000" stroke-width="0.8">
+                                <g id="iPad-Pro-Portrait" transform="translate(-238.000000, -136.000000)" stroke="#000000" stroke-width="0.8">
                                     <g id="Page-1" transform="translate(234.000000, 136.000000)">
-                                        <path d="M14.4947,127.9612 L14.4947,115.3942 C18.5217,117.4972 22.5237,119.5832 26.5757,121.6982 C22.5347,123.7932 18.5337,125.8662 14.4947,127.9612 L14.4947,127.9612 Z M37.7407,113.0822 C37.2757,111.0592 35.6247,109.5692 33.6327,109.3472 C28.9237,108.8202 24.1537,108.8182 19.4047,108.8202 C14.6577,108.8182 9.8867,108.8202 5.1757,109.3472 C3.1847,109.5692 1.5347,111.0592 1.0687,113.0822 C0.4077,115.9582 0.3997,119.1022 0.3997,122.0642 C0.3997,125.0242 0.3997,128.1672 1.0617,131.0442 C1.5267,133.0672 3.1787,134.5572 5.1687,134.7792 C9.8827,135.3062 14.6507,135.3082 19.3967,135.3062 C24.1467,135.3082 28.9177,135.3062 33.6257,134.7792 C35.6147,134.5572 37.2697,133.0672 37.7337,131.0442 C38.3967,128.1672 38.3997,125.0242 38.3997,122.0642 C38.3997,119.1022 38.4037,115.9582 37.7407,113.0822 L37.7407,113.0822 Z" id="Stroke-5"></path>
+                                        <path d="M6.3297,2.1107 C6.3297,2.1107 10.7497,8.2977 18.8917,8.4217 C18.8917,8.4217 18.1997,3.0557 22.8737,1.4177 C22.8737,1.4177 26.8507,-0.2253 29.4997,2.8667 C29.4997,2.8667 32.5977,2.3637 33.2927,1.4177 C33.2927,1.4177 33.1007,3.3167 30.9537,4.7017 C30.9537,4.7017 32.9117,4.6977 34.3007,3.9417 C34.3007,3.9417 32.3477,6.3837 31.5017,6.7657 C31.4887,6.7717 31.4737,6.7787 31.4607,6.7827 C30.6397,7.1027 32.3477,12.5947 27.2287,19.0947 C27.2287,19.0947 23.3547,24.3357 16.1147,25.3487 C13.1737,25.7587 8.8547,26.1057 4.4987,22.8227 C4.4987,22.8227 8.9137,23.3897 13.3367,20.1067 C13.3367,20.1067 8.7907,19.7277 7.7207,15.9377 C7.7207,15.9377 9.8007,15.9407 10.2427,15.8767 C10.2427,15.8767 5.3827,14.2327 5.4457,9.5927 C5.4457,9.5927 7.0857,10.3177 8.0037,10.2227 C8.0037,10.2227 3.8957,7.1587 6.3297,2.1107 L6.3297,2.1107 Z" id="Stroke-1"></path>
                                     </g>
                                 </g>
                             </g>
-                        </svg></a>
+                        </svg>
+                    </a>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/circulartmc/" target="_blank"><svg width="31px" height="32px" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -106,8 +91,25 @@
                             </g>
                         </svg></a>
                 </li>
-                <li class="txt"><a href="<?php bloginfo('url') ?>/inscripciones">Inscripciones</a></li>
-                <li class="txt"><a href="<?php bloginfo('url') ?>/programacion">Programación</a></li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCp1LtBBVxj68-drbIhJg71Q" target="_blank"><svg width="40px" height="28px" viewBox="0 0 40 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+                            <title>Stroke 5</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="iPad-Pro-Portrait" transform="translate(-233.000000, -244.000000)" stroke="#000000" stroke-width="0.8">
+                                    <g id="Page-1" transform="translate(234.000000, 136.000000)">
+                                        <path d="M14.4947,127.9612 L14.4947,115.3942 C18.5217,117.4972 22.5237,119.5832 26.5757,121.6982 C22.5347,123.7932 18.5337,125.8662 14.4947,127.9612 L14.4947,127.9612 Z M37.7407,113.0822 C37.2757,111.0592 35.6247,109.5692 33.6327,109.3472 C28.9237,108.8202 24.1537,108.8182 19.4047,108.8202 C14.6577,108.8182 9.8867,108.8202 5.1757,109.3472 C3.1847,109.5692 1.5347,111.0592 1.0687,113.0822 C0.4077,115.9582 0.3997,119.1022 0.3997,122.0642 C0.3997,125.0242 0.3997,128.1672 1.0617,131.0442 C1.5267,133.0672 3.1787,134.5572 5.1687,134.7792 C9.8827,135.3062 14.6507,135.3082 19.3967,135.3062 C24.1467,135.3082 28.9177,135.3062 33.6257,134.7792 C35.6147,134.5572 37.2697,133.0672 37.7337,131.0442 C38.3967,128.1672 38.3997,125.0242 38.3997,122.0642 C38.3997,119.1022 38.4037,115.9582 37.7407,113.0822 L37.7407,113.0822 Z" id="Stroke-5"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg></a>
+                </li>
+
+            <!--    <li class="txt"><a href="<?php /*bloginfo('url') */?>/inscripciones">Inscripciones</a></li>
+                <li class="txt"><a href="<?php /*bloginfo('url') */?>/programacion">Programación</a></li>-->
+                <li class="txt"><a href="<?php bloginfo('url') ?>/calendario">Calendario</a></li>
                 <li class="txt greenBack"><a href="<?php bloginfo('url') ?>/versiones" >Circulart</a></li>
             </ul>
         </div>
