@@ -111,10 +111,14 @@
                         </svg></a>
                 </li>
 
-            <!--    <li class="txt"><a href="<?php /*bloginfo('url') */?>/inscripciones">Inscripciones</a></li>
+            <!--
                 <li class="txt"><a href="<?php /*bloginfo('url') */?>/programacion">Programación</a></li>-->
+
                 <li class="txt greenBack"><a href="<?php bloginfo('url') ?>/versiones" >Circulart</a></li>
                 <li class="txt"><a href="<?php bloginfo('url') ?>/calendario">Calendario</a></li>
+                <li class="txt"><a href="http://circulart.org/2016/mercado/">Inscripciones</a></li>
+
+
             </ul>
         </div>
     </header>
