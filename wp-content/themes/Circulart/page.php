@@ -3,8 +3,11 @@
 <?php if( is_page( array( 'aliados' )) ):?>
     <section class="row inside">
         <hr>
+        <div class="col-3">
+
+        </div>
         <article class="col-9">
-            <h2>ORGANIZA</h2>
+            <h2>Organiza</h2>
             <img src="<?php bloginfo('template_url') ?>/assets/images/LogosAliados.png" alt="">
         </article>
     </section>
