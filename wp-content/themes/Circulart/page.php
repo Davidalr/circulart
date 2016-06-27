@@ -8,10 +8,11 @@
         </div>
         <article class="col-9">
             <h2>Organiza</h2>
-            <img src="<?php bloginfo('template_url') ?>/assets/images/LogosAliados.png" alt="">
+            <img src="<?php bloginfo('template_url') ?>/assets/images/Logo-aliados.png" alt="">
         </article>
     </section>
 <?php endif ?>
+
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <section class="row inside">
         <hr>
