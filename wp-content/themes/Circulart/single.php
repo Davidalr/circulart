@@ -6,7 +6,7 @@
         <hr>
         <div class="col-3">
             <figure>
-                <?php the_post_thumbnail(); ?>
+              
             </figure>
         </div>
         <article class="col-9">
@@ -16,5 +16,3 @@
 
 <?php endwhile;endif ?>
 <?php get_footer(); ?>
-
-
