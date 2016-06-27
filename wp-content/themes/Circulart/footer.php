@@ -34,11 +34,11 @@
             <?php if (function_exists('smuzform_render_form')) {
                 smuzform_render_form('15');
             } ?>
-            <p>O puedes escribirle a...</p>
+          <!--   <p>O puedes escribirle a...</p>
 
 
 
-           <!-- <p>
+           <p>
                 Información General REDLAT <br>
                 info@redlat.org<br>
                 Información General CIRCULART<br>
