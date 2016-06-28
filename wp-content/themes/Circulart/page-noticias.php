@@ -7,7 +7,7 @@
             <?php while ($my_query->have_posts()) : $my_query->the_post(); ?>
                 <li class="col-4">
                     <figure>
-                        <?php the_post_thumbnail(); ?>
+                        <a href="<?php the_permalink(); ?>">   <?php the_post_thumbnail(); ?></a>
                     </figure>
                     <h2><?php  the_title() ?></h2>
                     <article>
