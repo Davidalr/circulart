@@ -14,7 +14,7 @@
     </div>
     <section class="Footer-nav">
         <ul class="row center ">
-            <li><a href="<?php bloginfo('url') ?>">inicio</a></li>
+            <li><a href="<?php bloginfo('url') ?>">Inicio</a></li>
             <li><a href="<?php bloginfo('url') ?>/noticias">Noticias</a></li>
             <li><a href="<?php bloginfo('url') ?>/medellin">Medellín</a></li>
             <li><a href="<?php bloginfo('url') ?>/aliados">Aliados</a></li>
