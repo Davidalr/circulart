@@ -3,7 +3,7 @@
         <div class="row">
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <figure class="col-4">
-                    <h1>CIRCULART <b>2016</b></h1>
+                    <h1>CIRCULART</h1>
                     <?php the_post_thumbnail(); ?>
                 </figure>
                 <div class="col-8">

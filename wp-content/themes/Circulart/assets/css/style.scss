@@ -12,7 +12,7 @@ section{
   margin: rem(60) 0;
 }
 .Header{
-  padding-top: 4rem;
+  padding-top: 3rem;
   background-image: url(../images/1h.png) ;
   background-repeat: no-repeat;
   background-position:  0 rem(-32);
@@ -41,8 +41,9 @@ section{
     margin: auto;
     max-width: 36rem;
     background: rgba(255, 255, 255, 0.5);
-    padding: 4px;
-    border-radius: 4px;
+    padding: rem(4);
+    border-radius: rem(4);
+    font-size: rem(14);
   }
 }
 .Social{

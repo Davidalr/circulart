@@ -34,7 +34,7 @@
         </figure>
         <nav class="Nav">
             <ul class="row center">
-
+                <li><a href="<?php bloginfo('url') ?>/versiones" >CIRCULART</a></li>
                 <li><a href="<?php bloginfo('url') ?>/festival-showcase">FESTIVAL <b>SHOWCASE</b></a></li>
                 <li><a href="<?php bloginfo('url') ?>/zona-de-negocios">ZONA DE <b>NEGOCIOS</b></a></li>
                 <li><a href="<?php bloginfo('url') ?>/zona-academica">ZONA <b>ACADÉMICA</b></a></li>
@@ -114,9 +114,9 @@
             <!--
                 <li class="txt"><a href="<?php /*bloginfo('url') */?>/programacion">Programación</a></li>-->
 
-                <li class="txt greenBack"><a href="<?php bloginfo('url') ?>/versiones" >Circulart</a></li>
+                <!--<li class="txt greenBack"><a href="<?php /*bloginfo('url') */?>/versiones" >Circulart</a></li>-->
                 <li class="txt"><a href="<?php bloginfo('url') ?>/calendario">Calendario</a></li>
-                <li class="txt"><a href="http://circulart.org/2016/mercado/">Inscripciones</a></li>
+                <li class="txt"><a href="http://circulart.org/2016/mercado/">Convocatoria</a></li>
 
 
             </ul>
