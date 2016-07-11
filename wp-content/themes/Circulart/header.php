@@ -117,7 +117,7 @@
                 <!--<li class="txt greenBack"><a href="<?php /*bloginfo('url') */?>/versiones" >Circulart</a></li>-->
                 <li class="txt"><a href="<?php bloginfo('url') ?>/calendario">Calendario</a></li>
                 <li class="txt"><a href="http://circulart.org/2016/mercado/">Convocatoria</a></li>
-                <li class="txt"><a href="http://circulart.org/2016/profesionales/">Inscripción <br> Profesionales</a></li>
+                <li style="text-align: right" class="txt"><a href="http://circulart.org/2016/profesionales/">Inscripción<br>Profesionales</a></li>
 
             </ul>
         </div>
