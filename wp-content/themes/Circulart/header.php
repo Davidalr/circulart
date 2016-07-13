@@ -23,15 +23,23 @@
 </head>
 
 <body <?php body_class(); ?> data-urlBody="<?php bloginfo('url') ?>">
-
+<div class="Nav-sup">
+    <ul class="row end ">
+        <li><a href="<?php bloginfo('url') ?>">Inicio</a></li>
+        <li><a href="<?php bloginfo('url') ?>/noticias">Noticias</a></li>
+        <li><a href="<?php bloginfo('url') ?>/medellin">Medellín</a></li>
+        <li><a href="<?php bloginfo('url') ?>/aliados">Aliados</a></li>
+        <li><a id="contact" href="#">Contacto</a></li>
+    </ul>
+</div>
 <main>
 
     <header class="Header"
             <?php if(isset(get_post_meta( get_the_ID(), 'background' )[0]) ){ ?>
             style="background-image: url(<?php   echo get_post_meta( get_the_ID(), 'background' )[0];} ?>) !important;" >
-        <figure class="Logo">
-            <a href="<?php bloginfo('url') ?>"><img src="<?php  bloginfo('template_url') ?>/assets/images/logo.png" alt=""></a>
-        </figure>
+      <!--  <figure class="Logo">
+            <a href="<?php /*bloginfo('url') */?>"><img src="<?php /* bloginfo('template_url') */?>/assets/images/logo.png" alt=""></a>
+        </figure>-->
         <nav class="Nav">
             <ul class="row center">
                 <li><a href="<?php bloginfo('url') ?>/versiones" >CIRCULART</a></li>

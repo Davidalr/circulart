@@ -12,21 +12,22 @@ section{
   margin: rem(60) 0;
 }
 .Header{
-  padding-top: 3rem;
+  padding-top: 1rem;
   background-image: url(../images/1h.png) ;
   background-repeat: no-repeat;
-  background-position:  0 rem(-32);
-  height: 24rem;
+  background-position:  0 rem(-16);
+  height: 21rem;
   max-width: rem(1060);
   margin: auto;
   background-size: 55rem;
   @include respond-toH(middle){
-    height: 29rem;
-    background-size: rem(1060);
+    height: 21rem;
+    background-size: 55rem;
   }
   a{
-    color: #414141;
-    padding: 0 rem(10);
+    color: white;
+    padding: 0 rem(5);
+    font-size: rem(12);
   }
   .Logo{
     position: absolute;
@@ -37,13 +38,19 @@ section{
   }
 }
 .Nav{
+  padding-left: 3rem;
   ul{
     margin: auto;
-    max-width: 36rem;
-    background: rgba(255, 255, 255, 0.5);
-    padding: rem(4);
-    border-radius: rem(4);
+    max-width: 29.3rem;
+    background: rgba(255, 255, 255, 0.3);
+    padding: rem(8) rem(4);
+    border-radius: 1.25rem 0 0 1.25rem;
     font-size: rem(14);
+
+  }
+
+  li:first-child a{
+    color: $orange;
   }
 }
 .Social{
@@ -65,6 +72,8 @@ section{
       border-radius: 20px 0 0 20px;
       a{
         padding: 0;
+        color: #414141;
+
       }
       &.greenBack{
         background: $green;
@@ -311,4 +320,53 @@ section{
 .Gallery figure{
     max-width: 256px;
 
+}
+.Nav-sup{
+
+  background: #1e1e1e;
+  background: -moz-linear-gradient(left,  #1e1e1e 0%, #414141 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #1e1e1e 0%,#414141 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #1e1e1e 0%,#414141 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1e1e', endColorstr='#414141',GradientType=1 ); /* IE6-9 */
+  padding: rem(8) 0;
+  ul{
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+  }
+  li{
+    padding: 0 rem(8);
+  }
+  a{
+    display: block;
+    color: white;
+  }
+}
+.Spotify{
+  max-width: 65rem;
+  margin: 8rem auto 4rem;
+  h4{
+    margin: 0 1rem;
+    font-size: 26px;
+    color: #EF5319;
+    font-weight: 400;
+  }
+}
+#tweets{
+  padding-top: 2rem !important;
+  li{
+    display: inline-block;
+    max-width: 49%;
+    list-style: none;
+    margin-bottom: 15px;
+    padding: 0 1rem;
+    vertical-align: top;
+    padding-top: 7rem !important;
+    a{
+      color: $orange;
+    }
+  }
+  &:first-child{
+     border-right: rem(1) solid ;
+  }
 }
