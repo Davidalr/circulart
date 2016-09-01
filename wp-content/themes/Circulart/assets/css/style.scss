@@ -151,9 +151,12 @@ section{
   }
   h2{
 
-    margin-top: rem(64);
+    margin-top: 2rem;
     color: $orange;
     margin-bottom: 2rem;
+    @include respond-to(middle){
+      margin-top:rem(64);
+    }
   }
   figure{
     max-width: rem(210);
