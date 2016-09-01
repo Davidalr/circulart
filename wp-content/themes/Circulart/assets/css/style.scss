@@ -111,6 +111,7 @@ section{
   max-width:  rem(1000);
   margin: rem(40) auto rem(60);
   li{
+    max-width: 100%;
     h2{
       border-top: rem(3) solid #414042 ;
       color: $orange;
