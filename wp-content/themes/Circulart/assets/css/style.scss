@@ -4,6 +4,9 @@
 @import "lib/grid";
 $orange: #EF5319;
 $green: #00A6A4;
+article{
+  max-width: 100%;
+}
 main{
   margin: auto ;
   padding: rem(10);
