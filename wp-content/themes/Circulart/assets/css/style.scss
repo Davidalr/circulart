@@ -314,6 +314,8 @@ section{
   p{
     text-align: justify;
     padding: 0 rem(20);
+  }
+  div{
     max-width: 100%;
   }
   h2{
@@ -330,15 +332,15 @@ section{
   }
   ul{
     max-width: 42rem;
+    margin: auto;
     font-size: 2rem;
-    margin: 0 rem(20);
     font-weight: 500;
-    @include respond-to(middle){
-      margin: auto;
-
-    }
   }
   li{
+    margin: 0 rem(20);
+    @include respond-to(middle){
+      margin: auto;
+    }
     a{
       color: $green;
 
