@@ -2,7 +2,7 @@
     <section class="Version">
         <div class="row">
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                <figure class="col-4 cols-12">
+                <figure class=" Version-figure col-4 cols-12">
                     <h1>CIRCULART</h1>
                     <?php the_post_thumbnail(); ?>
                 </figure>

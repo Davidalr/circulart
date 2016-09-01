@@ -296,6 +296,12 @@ section{
     padding: rem(4);
   }
 }
+.Version-figure{
+  margin:auto;
+  @include respond-to(middle){
+    margin: 0;
+  }
+}
 .Version{
   max-width: 50rem;
   margin: 3rem auto 0;
