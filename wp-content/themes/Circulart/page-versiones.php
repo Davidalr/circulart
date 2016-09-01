@@ -2,7 +2,7 @@
     <section class="Version">
         <div class="row">
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                <figure class="col-4">
+                <figure class="col-4 cols-12">
                     <h1>CIRCULART</h1>
                     <?php the_post_thumbnail(); ?>
                 </figure>
@@ -13,7 +13,7 @@
         </div>
         <h2>VERSIONES ANTERIORES</h2>
         <hr>
-        <ul class="row center">
+        <ul class="row center ">
             <li class="col-2"><a href="http://circulart.org/2016/wp-content/uploads/2016/06/Catalogo_MCM_2010.pdf" target="_blank">2010</a></li>
             <li class="col-2"><a href="http://circulart.org/2016/wp-content/uploads/2016/06/Catalogo_MCM_2011_flipping.pdf" target="_blank">2011</a></li>
             <li class="col-2"><a href="http://circulart.org/2016/wp-content/uploads/2016/06/Catalogo_Circulart_2012-oct-25pdf.pdf" target="_blank">2012</a></li>
