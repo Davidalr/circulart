@@ -508,6 +508,10 @@ li.Nav-mobileSocial {
   right: rem(20);
   z-index: 10000;
   cursor: pointer;
+  display: none;
+  @include respond-to(middle){
+    display: block;
+  }
   span {
     @include transition(all .4s);
     display: block;
