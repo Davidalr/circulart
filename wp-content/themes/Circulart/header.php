@@ -3,8 +3,9 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title> <?php the_title(); ?> </title>
+
 
     <meta name="description" content="Del 11 al 13 de noviembre de 2016 se realizará la séptima edición de CIRCULART, el mercado cultural para la música latinoamericana, que reunirá profesionales de Iberoamérica y el mundo en la ciudad de Medellín, Colombia."/>
 
@@ -15,10 +16,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url') ?>/assets/css/style.css">
 
     <?php wp_head(); ?>
-    <meta property="og:title" content="Circulart 2016"/>
-    <meta property="og:image" content="http://circulart.org/2016/wp-content/uploads/2016/06/convcirculart-e1466522110867.png"/>
-    <meta property="og:site_name" content="Circulart 2016"/>
-    <meta property="og:description" content="Del 11 al 13 de noviembre de 2016 se realizará la séptima edición de CIRCULART, el mercado cultural para la música latinoamericana, que reunirá profesionales de Iberoamérica y el mundo en la ciudad de Medellín, Colombia."/>
+
 
 </head>
 
@@ -94,12 +92,12 @@
         </li>
     </ul>
 </div>
-<main>
+
 
     <header class="Header"
-            <?php if(isset(get_post_meta( get_the_ID(), 'background' )[0]) ){ ?>
+        <?php if(isset(get_post_meta( get_the_ID(), 'background' )[0]) ){ ?>
             style="background-image: url(<?php   echo get_post_meta( get_the_ID(), 'background' )[0];} ?>) !important;" >
-      <!--  <figure class="Logo">
+        <!--  <figure class="Logo">
             <a href="<?php /*bloginfo('url') */?>"><img src="<?php /* bloginfo('template_url') */?>/assets/images/logo.png" alt=""></a>
         </figure>-->
         <nav class="Nav">
@@ -181,7 +179,7 @@
                         </svg></a>
                 </li>
 
-            <!--
+                <!--
                 <li class="txt"><a href="<?php /*bloginfo('url') */?>/programacion">Programación</a></li>-->
 
                 <!--<li class="txt greenBack"><a href="<?php /*bloginfo('url') */?>/versiones" >Circulart</a></li>-->
@@ -192,3 +190,5 @@
             </ul>
         </div>
     </header>
+
+<main>

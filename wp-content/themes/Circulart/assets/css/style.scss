@@ -25,10 +25,22 @@ section {
   background-image: url(../images/1h.png);
   background-repeat: no-repeat;
   background-position: 0 rem(-16);
-  height: 21rem;
+  height: rem(150);
   max-width: rem(1060);
   margin: auto;
-  background-size: 55rem;
+  background-size: 98%;
+  @include respond-to(small) {
+    background-size: 98%;
+    height: rem(150);
+  }
+  @include respond-to(middle) {
+    height: rem(150);
+    background-size: 98%;
+  }
+  @include respond-to(large) {
+    height: rem(150);
+    background-size: 98%;
+  }
   @include respond-toH(middle) {
     height: 21rem;
     background-size: 55rem;
@@ -73,7 +85,7 @@ section {
   position: fixed;
   right: 0;
   top: rem(120);
-
+  z-index: 10;
   display: none;
   @include respond-to(middle) {
     display: block;
